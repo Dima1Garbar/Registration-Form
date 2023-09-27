@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./registre.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="registrePage">
+        <form class="registreForm" action="#" onsubmit="validateForm()">
+            <h1 class="registre">Sign Up</h1>
+            <div class="inputBloc">
+                <div class="input-box">
+                    <div class="input-text icon" >
+                        <i class="fas fa-user"></i> <spna class="text-fill">Name</spna>
+                    </div>
+                    <input class="input-field" type="text" placeholder="Name"  required title="Некоректне ім'я">
+                </div>
+                <div class="input-box">
+                    <div class="input-text icon"> 
+                        <i class="fas fa-envelope"></i><spna class="text-fill">Email</spna>
+                    </div>
+                    <input class="input-field"  type="text" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <div class="input-text icon">
+                        <i class="fas fa-phone"></i><spna class="text-fill">Phone number</spna>
+                    </div>
+                    <input class="input-field"  type="text" placeholder="Phone number" required>
+                </div>
+                <div class="input-box">
+                    <div class="input-text icon">
+                        <i class="fas fa-lock"></i><spna class="text-fill">Password</spna>
+                    </div>
+                    <input class="input-field" type="password" placeholder="*******" required autocomplete="off" minlength="6" maxlength="20">
+                </div>
+                <div class="input-box">
+                    <div class="input-text icon">
+                        <i class="fas fa-lock"></i><spna class="text-fill">Password Confirmation</spna>
+                    </div>
+                    <input class="input-field" type="password" placeholder="*******" required >
+                </div>
+            </div>
+            <button class="submit" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
